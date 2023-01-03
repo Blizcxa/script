@@ -1,0 +1,85 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trqz HUB", "Serpent")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("All games aimbot", "Right Ctrl", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
+    end)
+
+    MainSection:NewButton("Breaking Point GUI", "Advanced GUI script", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tkorra/bp-gui/main/main.lua'))()
+    end)
+
+    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+MainSection:NewButton("Arsenal GUI", "OP Arsenal Script", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/Arsenal",true))()
+end)
+
+MainSection:NewButton("Bedwars GUI", "Vape v4", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+MainSection:NewButton("OP Doors GUI", "Doors script", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+    
+MainSection:NewButton("Evade GUI", "Evade", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+end)
+    
+  MainSection:NewButton("Pet sim 2 GUI", "Pet sim 2 script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/QhtJiZLi", true))()
+end)  
+    
+MainSection:NewButton("Da hood GUI", "Da hood GUI", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/grekkk/relases/main/zapped.lua'))()
+end)  
+
+MainSection:NewButton("Blox Fruits GUI", "Blox Fruits GUI", function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)  
+
+
+
+
+
+        
+    -- PLAYER
+ 
+local Player = Window:NewTab("Player")
+     local PlayerSection = Player:NewSection("Player")
+     
+PlayerSection:NewSlider("Walkspeed", "makes you go fast dumbass", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("Jumppower", "JUMP HIGH!!", 350, 50, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+
+PlayerSection:NewButton("Reset WS/JP", "Resets to all defaults", function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+
+PlayerSection:NewButton("Limited Hats, Korblox, Headless", "V to toggle this on/off", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackerProLuaStuff/avatar-editor-thing/main/headless.lua"))()
+end)
+
+
+-- credits
+
+
+local Credits = Window:NewTab("Credits")
+     local CreditsSection = Credits:NewSection("Credits")
+     
+    CreditsSection:NewButton("tawa#8804", "tawa#8804", function()
+    print("Clicked")
+end)
