@@ -17,7 +17,7 @@ local Window = Library.CreateLib("Trqz HUB", "Serpent")
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     end)
 MainSection:NewButton("Arsenal GUI", "OP Arsenal Script", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/Arsenal",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();   
 end)
 
 MainSection:NewButton("Bedwars GUI", "Vape v4", function()
