@@ -74,7 +74,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Pet Sim X GUI",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/PetSimX.lua'))()
+   loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
    end,
 })
 
