@@ -121,6 +121,22 @@ local Button = Tab:CreateButton({
 })
 
 
+local Button = Tab:CreateButton({
+   Name = "Phantom forces",
+   Callback = function()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/phantom-forces-new/main/noob"), true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Phantom forces V2",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+   end,
+})
+
+
+
 
 local Tab = Window:CreateTab("Player", 4483362458) -- Title, Image
 
@@ -132,4 +148,3 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackerProLuaStuff/avatar-editor-thing/main/headless.lua"))()
    end,
 })
-
