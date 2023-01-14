@@ -74,7 +74,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Pet Sim X GUI",
    Callback = function()
-   loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
    end,
 })
 
