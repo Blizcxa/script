@@ -149,6 +149,17 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Survival and like 50 other game just try this one if a scripts missing",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+   end,
+})
+
+
+
+
+
 
 local Tab = Window:CreateTab("Player", 4483362458) -- Title, Image
 
